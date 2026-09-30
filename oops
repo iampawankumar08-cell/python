@@ -72,3 +72,27 @@
 # print(acc1.acc_pass)
 # x = int(input("enter a number"))
 
+# n = 6
+# for i in range(0, n):
+#     for j in range(6, i):
+#         print("*", end = " ")
+#     print()
+
+# num = input("Enter a number: ")
+
+# if num == num[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")
+
+
+class MyClass:
+  def __init__(self, name, age):
+     self.name = name
+     self.age = age
+ 
+  def car(self):
+        return f"Name: {self.name}, Age: {self.age}"
+
+s1 = MyClass("Pawan", 19)
+print(s1.car())
